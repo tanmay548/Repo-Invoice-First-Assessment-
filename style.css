@@ -1,0 +1,94 @@
+
+* {
+    box-sizing: border-box; 
+}
+
+.container {
+    width: 100%;
+    border: 1px solid;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: small;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    font-size: small;
+}
+
+.head {
+    text-align: left;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.head-ad {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.row {
+    display: flex;
+    font-size: 15px;
+    margin-bottom: 4px;
+    gap: 10px;
+}
+
+.row .label {
+    font-weight: bold;
+    width: 120px;
+}
+
+.row2 {
+    padding: 15px;
+}
+
+.row3 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.row4 {
+    padding: 15px;
+}
+
+.row4m {
+    font-weight: bold;
+    font-size: large;
+}
+
+.row4ad {
+    font-size: small;
+    color: rgb(125, 128, 128);
+}
+
+.row4b {
+    font-size: small;
+    color: rgb(125, 128, 128);
+}
+
+.tab2,
+tr,
+th,
+td {
+    padding: 12px;
+    font-size: medium;
+}
+
+.sub {
+    text-align: center;
+}
+
+.invoice {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 50px;
+}
